@@ -1,4 +1,4 @@
-testing with CamelitAdding changes (after adding changes):
+Testing with CamelitAdding changes (after adding changes):
 
 git add *
 
