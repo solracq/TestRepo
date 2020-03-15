@@ -5,7 +5,7 @@ pipeline {
     stage('Build'){
       steps {
       	echo 'Building...'
-        build job: 'Python examples' 
+        build job: 'Python_Examples' 
       }
     }
     stage('Test') {
