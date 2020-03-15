@@ -5,7 +5,7 @@ pipeline {
     stage('Build'){
       steps {
       	echo 'Building...'
-        bat 'dir' 
+        build job: 'Python examples' 
       }
     }
     stage('Test') {
